@@ -20,5 +20,4 @@ Thumbs.db
 .vscode/
 
 # Data / outputs
-images/
 *.csv
