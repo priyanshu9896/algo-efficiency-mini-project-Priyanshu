@@ -1,27 +1,7 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+*.pyo
 
 # Virtual environments
 .venv/
@@ -29,41 +9,16 @@ venv/
 ENV/
 env/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter
+.ipynb_checkpoints/
 
-# PyCharm
-.idea/
-*.iml
+# OS files
+.DS_Store
+Thumbs.db
 
 # VS Code
 .vscode/
 
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-$RECYCLE.BIN/
-
-# Test and coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# mypy
-.mypy_cache/
-.dmypy.json
-
-# profiling
-.prof
-memory_profiler.log
+# Data / outputs
+images/
+*.csv
